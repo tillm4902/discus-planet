@@ -1,0 +1,33 @@
+img {
+  max-width: 100%;
+}
+
+.bannerbg {
+  max-width: 100%;
+  margin: auto;
+}
+
+.bannerbg::after {
+  display: block;
+  position: relative;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
+  margin-top: -150px;
+  height: 150px;
+  width: 100%;
+  content: '';
+}
+
+h3.banner, h1.banner {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+h3.banner {
+  top: 18%;
+}
+
+h1.banner {
+  top: 20%;
+}
